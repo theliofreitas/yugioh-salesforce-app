@@ -1,5 +1,11 @@
+@font-face {
+    font-family:'SquadaOne';
+    src:url(/resource/SquadaOne);
+}
+
 .slds-badge {
   background-color: #3e3e3e;
+  font-weight: 200;
 }
 .slds-badge_DARK {
   color: #C1A6FF;
@@ -14,11 +20,12 @@
 }
 
 .card-container {
+  font-family: 'SquadaOne';
   background-color: #fff;
+  max-width: 190px;
   padding: 10px 15px;
   border-radius: 8px;
   box-shadow: 3px 5px 5px rgb(0 0 0 / 17%);
-  max-width: 190px;
 }
 
 .card-container h1 {
