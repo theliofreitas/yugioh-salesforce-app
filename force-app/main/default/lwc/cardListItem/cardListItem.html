@@ -1,0 +1,18 @@
+<template>
+  <div class="card-container">
+    <h1 class="slds-text-heading_medium">{name}</h1>
+
+    <img class="card-image" src={image} />
+    
+    <div class="card-attributes">
+      <lightning-badge label={attribute} class={attributeStyle}></lightning-badge>
+      <div>{race}</div>
+      <lightning-badge label={level} class="slds-badge_LEVEL"></lightning-badge>
+    </div>
+    
+    <div class="card-footer">
+      <div class="card-footer-label">ATK: {atk}</div>
+      <div class="card-footer-label">DEF: {def}</div>
+    </div>
+  </div>
+</template>

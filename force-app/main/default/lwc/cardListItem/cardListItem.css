@@ -1,0 +1,47 @@
+.slds-badge {
+  background-color: #3e3e3e;
+}
+.slds-badge_DARK {
+  color: #C1A6FF;
+}
+.slds-badge_EARTH {
+  color: #EAC287;
+}
+
+.slds-badge_LEVEL {
+  background-color: #FCC65D;
+  color: #454545;
+}
+
+.card-container {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 3px 5px 5px rgb(0 0 0 / 17%);
+  max-width: 190px;
+}
+
+.card-container h1 {
+  margin-bottom: 0.25rem;
+}
+
+.card-image {
+  /* max-width: 190px */
+}
+
+.card-attributes, .card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.card-footer {
+  margin-top: 0.5rem;
+  justify-content: flex-start;
+}
+
+.card-footer-label {
+  margin-right: 15px;
+}
