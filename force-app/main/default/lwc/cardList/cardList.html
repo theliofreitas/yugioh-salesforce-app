@@ -1,0 +1,22 @@
+<template>
+  <div class="slds-card slds-var-p-around_x-small">
+    <template if:true={cards}>
+      <div class="content">
+        <template for:each={cards} for:item="card">
+          <c-card-list-item class="card"
+            key={card.Id}
+            id={card.id}
+            name={card.name}
+            attribute={card.attribute}
+            race={card.race}
+            level={card.level}
+            atk={card.atk}
+            def={card.def}
+            image={card.image}
+          >
+        </c-card-list-item>
+        </template>
+      </div>
+    </template>
+  </div>
+</template>

@@ -7,7 +7,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>cardListItem</componentName>
+                <componentName>cardList</componentName>
             </componentInstance>
         </itemInstances>
         <name>region2</name>

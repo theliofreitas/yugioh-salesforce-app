@@ -1,16 +1,25 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
 export default class CardListItem extends LightningElement {
-  name = 'Kuriboh';
-  attribute = 'DARK';
-  race = 'Fiend';
-  level = 1;
-  atk = 300;
-  def = 200;
-  image = 'https://storage.googleapis.com/ygoprodeck.com/pics/40640057.jpg';
-  
-  // Dynamically set CSS class
-  attributeStyle = 'slds-badge_' + [this.attribute]; 
+  @api id;
+  @api name;
+  @api attribute;
+  @api race;
+  @api atk;
+  @api def;
+  @api image;
+  _level;
 
-  level = 'Lv. ' + this.level;
+  @api
+  get level() {
+    return this._level;
+  }
+  set level(value) {
+    this._level = 'Lv. ' + value;
+  }
+  
+  // Dynamically get CSS class
+  get attributeStyle() {
+    return 'slds-badge_' + this.attribute; 
+  } 
 }
