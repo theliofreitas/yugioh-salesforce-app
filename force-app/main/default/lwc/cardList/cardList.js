@@ -34,14 +34,10 @@ export default class CardList extends LightningElement {
       image: 'https://storage.googleapis.com/ygoprodeck.com/pics/6368038.jpg'
     },
     {
-      id: 89631139,
-      name: 'Blue-Eyes White Dragon',
-      attribute: 'LIGHT',
-      race: 'Dragon',
-      level: 8,
-      atk: 3000,
-      def: 2500,
-      image: 'https://storage.googleapis.com/ygoprodeck.com/pics/89631139.jpg'
+      id: 44095762,
+      name: 'Mirror Force',
+      race: 'Normal',
+      image: 'https://storage.googleapis.com/ygoprodeck.com/pics/44095762.jpg'
     },
     {
       id: 71625222,
@@ -60,10 +56,14 @@ export default class CardList extends LightningElement {
       image: 'https://storage.googleapis.com/ygoprodeck.com/pics/15259703.jpg'
     },
     {
-      id: 44095762,
-      name: 'Mirror Force',
-      race: 'Normal',
-      image: 'https://storage.googleapis.com/ygoprodeck.com/pics/44095762.jpg'
-    },
+      id: 89631139,
+      name: 'Blue-Eyes White Dragon',
+      attribute: 'LIGHT',
+      race: 'Dragon',
+      level: 8,
+      atk: 3000,
+      def: 2500,
+      image: 'https://storage.googleapis.com/ygoprodeck.com/pics/89631139.jpg'
+    }
   ];
 }

@@ -5,14 +5,14 @@
     <img class="card-image" src={image} />
     
     <div class="card-attributes">
-      <lightning-badge label={attribute} class={attributeStyle}></lightning-badge>
+      <lightning-badge label={attribute} if:true={attribute} class={attributeStyle}></lightning-badge>
       <div>{race}</div>
-      <lightning-badge label={level} class="slds-badge_LEVEL"></lightning-badge>
+      <lightning-badge label={level} if:true={level} class="slds-badge_LEVEL"></lightning-badge>
     </div>
     
     <div class="card-footer">
-      <div class="card-footer-label">ATK: {atk}</div>
-      <div class="card-footer-label">DEF: {def}</div>
+      <div class="card-footer-label" if:true={atk}>ATK: {atk}</div>
+      <div class="card-footer-label" if:true={def}>DEF: {def}</div>
     </div>
   </div>
 </template>

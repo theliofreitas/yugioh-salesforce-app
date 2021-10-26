@@ -29,6 +29,7 @@
   padding: 10px 15px;
   border-radius: 8px;
   box-shadow: 2px 4px 10px 1px rgb(0 0 0 / 12%);
+  min-height: 100%;
 }
 
 .card-container h1 {

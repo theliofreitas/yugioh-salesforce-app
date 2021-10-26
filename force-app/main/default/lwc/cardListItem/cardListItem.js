@@ -15,7 +15,8 @@ export default class CardListItem extends LightningElement {
     return this._level;
   }
   set level(value) {
-    this._level = 'Lv. ' + value;
+    if (value != undefined)
+      this._level = 'Lv. ' + value;
   }
   
   // Dynamically get CSS class
